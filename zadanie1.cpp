@@ -12,6 +12,8 @@ void reset(int &zmienna)
 
 int main()
 {
+    cout << "Jezyki Porgramowania " << "2DZI " << "Damian " << "Potoczny " << endl;
+    cout << "Moduł 1 "<< "Funkcje " << "Zadanie 1"<< endl;
     int zmienna;
     cout<<"Podaj zmienna:" << endl;
     cin >> zmienna;
