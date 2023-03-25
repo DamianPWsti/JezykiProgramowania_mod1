@@ -36,7 +36,7 @@ int main()
     int suma = 0;
     int iloczyn = 0;
     int parzysta = funkcja(suma, iloczyn);
-    cout << "Liczba podanych cyfr była (1-parzysta)" << parzysta << endl;
+    cout << "Liczba podanych cyfr byla (1-parzysta)" << parzysta << endl;
     cout << "Suma:" << suma << endl;
     cout << "Iloczyn:" << iloczyn << endl;
     return 0;
