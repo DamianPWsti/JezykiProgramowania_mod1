@@ -1,4 +1,5 @@
 #include <iostream>
+#include "dane.h"
 
 using namespace std;
 
@@ -12,8 +13,8 @@ void reset(int &zmienna)
 
 int main()
 {
-    cout << "Jezyki Porgramowania " << "2DZI " << "Damian " << "Potoczny " << endl;
-    cout << "Moduł 1 "<< "Funkcje " << "Zadanie 1"<< endl;
+    cout << "Jezyki Porgramowania " << "2DZI " << name << " " << surname << endl;
+    cout << "Modul 1 "<< "Funkcje " << "Zadanie 2"<< endl;
     int zmienna;
     cout<<"Podaj zmienna:" << endl;
     cin >> zmienna;
