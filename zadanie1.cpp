@@ -3,9 +3,6 @@
 
 using namespace std;
 
-
-/*Języki programowania Grupa 2DZI Damian Potoczny moduł 1 Funkcje Zadanie 1*/
-
 void reset(int &zmienna)
 {
     zmienna = 0;
@@ -14,7 +11,7 @@ void reset(int &zmienna)
 int main()
 {
     cout << "Jezyki Porgramowania " << "2DZI " << name << " " << surname << endl;
-    cout << "Modul 1 "<< "Funkcje " << "Zadanie 2"<< endl;
+    cout << "Modul 1 "<< "Funkcje " << "Zadanie 1"<< endl;
     int zmienna;
     cout<<"Podaj zmienna:" << endl;
     cin >> zmienna;
@@ -22,5 +19,6 @@ int main()
     cout<<"Zmienna zresetowana" << endl;
     cout<<zmienna<<endl;
 
+    system("pause");
     return 0;
 }

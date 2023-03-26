@@ -4,8 +4,6 @@
 using namespace std;
 
 
-/*Języki programowania Grupa 2DZI Damian Potoczny moduł 1 Funkcje Zadanie 3*/
-
 int fib(int element)
 {
     if(element >2)
@@ -32,5 +30,7 @@ int main()
     int element;
     cin >> element;
     cout << "Wynik: " << fib(element) << endl;
+
+    system("pause");
     return 0;
 }

@@ -4,8 +4,6 @@
 using namespace std;
 
 
-/*Języki programowania Grupa 2DZI Damian Potoczny moduł 1 Funkcje Zadanie 2*/
-
 int funkcja(int& suma, int& iloczyn)
 {
     int zmienna = 0;
@@ -39,5 +37,6 @@ int main()
     cout << "Liczba podanych cyfr byla (1-parzysta)" << parzysta << endl;
     cout << "Suma:" << suma << endl;
     cout << "Iloczyn:" << iloczyn << endl;
+    system("pause");
     return 0;
 }
